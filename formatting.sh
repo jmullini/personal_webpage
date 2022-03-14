@@ -2,7 +2,7 @@ for i in *.html;
 
 do
   echo "Formatting $i"
-  tidy -q -o $i $i
+  tidy -q -i -o $i $i
 
 done
 
