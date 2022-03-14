@@ -1,3 +1,5 @@
+# Small utility to format the html files
+
 for i in *.html;
 
 do
